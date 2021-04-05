@@ -6,7 +6,7 @@ pipeline {
         sh '''
         #!/bin/bash
         git clone https://github.com/akt-6161/abc.exe.git
-        cd /var/lib/jenkins/workspace/cprojectpipeline/abc.exe
+        cd /var/lib/jenkins/workspace/Cprojectpipeline/abc.exe
         make '''
         }
         }
