@@ -1,0 +1,15 @@
+pipeline {
+        agent any
+        stages {
+        stage("Build") {
+        steps {
+        sh '''
+        #!/bin/bash
+        git clone https://github.com/akt-6161/abc.exe.git
+        cd /var/lib/jenkins/workspace/cprojectpipeline/abc.exe
+        make '''
+        }
+        }
+}
+}
+          
