@@ -7,7 +7,8 @@ pipeline {
         #!/bin/bash
         git clone https://github.com/akt-6161/abc.exe.git
         cd abc.exe
-        make '''
+        make 
+        rm -rf *.o'''
         }
         }
 }
